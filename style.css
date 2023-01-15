@@ -68,7 +68,7 @@ button a{
     color: #FF900E;
 }
 .container{
-    margin-top: 30px;
+    margin: 30px 20px;
     display: grid;
     grid-template-columns: 5fr 5fr;
     grid-gap: 20px;
@@ -82,4 +82,16 @@ button a{
 .four-images-managing img{
     height: 150px;
     width: 150px;
+}
+
+.feathure-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.feathure-section img{
+    width: 525px;
+    height: 700px;
 }
