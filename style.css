@@ -39,7 +39,7 @@ p{
     font-size: 16px;
     font-family: 'Work Sans';
     font-weight: 400px;
-    color: #727272;
+    
 }
 header button{
     display: flex;
@@ -60,4 +60,26 @@ button a{
     margin-top: 20px;
     margin-left: 70px;
     justify-content: center;
+}
+.special-color{
+    color: #727272;
+}
+.special-color2{
+    color: #FF900E;
+}
+.container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-gap: 20px;
+    justify-items: center;
+}
+.four-images-managing{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 10px;
+}
+.four-images-managing img{
+    height: 150px;
+    width: 150px;
 }
