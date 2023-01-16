@@ -2,45 +2,48 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Work Sans'
-}
+} 
+/* navbar and g3-architect flexing */
 .nav-section{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 50px 228px;
 }
-
+/* resizing h3 */
 h3{
     font-size: 45px;
     font-weight: 700;
 }
-
+/* flexing nav section */
 .flexing-things{
     display: flex;
     justify-content: space-between;
     
 }
+
 a{
     text-decoration: none;
     margin-left: 20px;
 }
-
+/* flexing header section */
 header{
     display: flex;
     justify-content: center;
     margin-top: 116px;
 }
-
+/* resizing h1 */
 h1{
     font-size: 64px;
     font-weight: 700;
 }
-
+/* resizing p */
 p{
     font-size: 16px;
     font-weight: 400px;
     
 }
+
 header button{
     background-color: #FF900E;
     padding: 20px 25px 20px 25px;
@@ -51,6 +54,7 @@ button a{
     color: #FFFFFF;
 }
 
+/* banner image */
 .banner img{
     width: 800px;
     height: 400px;
@@ -59,12 +63,15 @@ button a{
     margin-left: 70px;
     justify-content: center;
 }
+/* some special colors */
 .special-color{
     color: #727272;
 }
 .special-color2{
     color: #FF900E;
 }
+
+/* four images managing with quick feature section */
 .container{
     margin: 30px 20px;
     display: grid;
@@ -81,7 +88,7 @@ button a{
     height: 150px;
     width: 150px;
 }
-
+/* feature section */
 .feature-section{
     display: flex;
     justify-content: space-around;
@@ -97,6 +104,8 @@ button a{
     width: 525px;
     height: 700px;
 }
+
+/* 10 years experience button */
 .experience-button{
     color: #FFFFFF;
     background-color: #FF900E;
@@ -112,6 +121,8 @@ button a{
     font-size: 25px;
 
 }
+
+/* some facts section */
 .achievements{
     display: flex;
     justify-content: center;
@@ -129,6 +140,8 @@ button a{
     transition-duration: 2s;
     background-color: #FF900E;
 }
+
+/* sponsor section */
 .sponsors{
     text-align: center;
 }
@@ -137,6 +150,7 @@ button a{
     justify-content: space-around;
 }
 
+/* footer section */
 footer{
     text-align: center;
     background-color: #FFF4E7;
