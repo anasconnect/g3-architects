@@ -84,14 +84,40 @@ button a{
     width: 150px;
 }
 
-.feathure-section{
+.feature-section{
     display: flex;
     justify-content: space-around;
     margin: 20px;
 
 }
+.left-border{
+    border-left: 5px solid #FF900E;
+    border-radius: 20px;
+}
 
-.feathure-section img{
+.feature-section img{
     width: 525px;
     height: 700px;
+}
+.experience-button{
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: #FFFFFF;
+}
+.big-button-font{
+    font-size: 25px;
+
+}
+.achievements{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    border: .5px solid #FF900E;
+    width: fit-content;
+    padding: 20px 80px;
+    margin: 20px;
+    text-align: center;
 }
